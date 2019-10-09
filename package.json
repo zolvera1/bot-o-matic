@@ -1,0 +1,25 @@
+{
+  "name": "bot-o-mat-zolvera1",
+  "version": "1.0.0",
+  "description": "Use any language to complete this challenge. The implementation is up to you: it can be a command-line application or have a graphical interface.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx browser-sync start -sw"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RedVentures22/bot-o-mat-zolvera1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RedVentures22/bot-o-mat-zolvera1/issues"
+  },
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "bulma": "^0.7.5",
+    "jquery": "^3.4.1"
+  }
+}

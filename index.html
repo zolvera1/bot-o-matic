@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Bot-O-Mat</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+      <link rel="stylesheet"  href="css/custom.css">
+      <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    </head>
+
+    <body>
+      <section id="hero-header" class="hero is-bold">
+        <div class="hero-body">
+            <figure class="image is-96x96">
+              <img src="./img/robot-solid.svg" alt="robot head">
+            </figure>
+          <div class="container has-content-center">
+            <h1 class="title">
+              BOT-O-MAT
+            </h1>
+            <p class="subtitle">
+              Build your very own robot!
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="form-container">
+        <form class="form-horizontal">
+          <fieldset>
+
+            <!-- Form Name -->
+            <legend>Robot Maker 3000</legend>
+
+            <!-- Text input-->
+            <div class="field">
+              <label class="label" for="name-input">Name Your Robot!</label>
+              <div class="control">
+                <input id="name-input" name="name-input" type="text" placeholder="Jeff Huntington " class="input">
+                <p class="help">Capitalization does not matter! </p>
+              </div>
+            </div>
+
+            <!-- Select Basic -->
+            <div class="field">
+              <label class="label" for="select-type">What type of robot is it?</label>
+              <div class="control">
+                <div class="select">
+                  <select id="select-type" name="select-type" class="">
+                    <option value="Unipedal">UNIPEDAL</option>
+                    <option value="Bipedal">BIPEDAL</option>
+                    <option value="Quadrupedal">QUADRUPEDAL</option>
+                    <option value="Arachnid">ARACHNID</option>
+                    <option value="Radial">RADIAL</option>
+                    <option value="Aeronautical">AERONAUTICAL</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            <!-- Button (Double) -->
+            <div class="field">
+              <label class="label" for="submit"></label>
+              <div class="control">
+                <button id="submit" type="submit" name="submit" class="button is-primary is-small">Create your robot!</button>
+                <button id="clear" type="reset" name="clear" class="button is-danger is-small">Clear all robots!</button>
+              </div>
+            </div>
+
+          </fieldset>
+        </form>
+      </div>
+      <!---Robot container to hold the robot cards that are created after submit-->
+      <div class="robot-container">
+        <div class="columns is-multiline is-centered is-mobile">
+        <!----Here we will add the multiple cards for all the robots that are added------>
+
+        </div>
+      </div>
+
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="module" src="js/scripts.js"></script>
+      <script type="module" src="js/data.js"></script>
+    </body>
+
+    </html>

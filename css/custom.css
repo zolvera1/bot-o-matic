@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+
+
+
+}
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+#hero-header {
+    background-color: #fea49f
+
+}
+legend,
+.label,
+.help{
+    color: #fbaf08
+}
+html,
+body {
+    height: 100%;
+    position: relative;
+    background-color:  #101357
+}
+.card-content {
+    min-height: 100%; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 1px;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    right:125px;
+}
+.is-complete {
+    text-decoration: line-through;
+}
