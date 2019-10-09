@@ -1,5 +1,5 @@
 # BOT-O-MAT
-Thank you for reviewing my project!  I wrote this project using css, javascript, jquery, html, and used a css framework called bulma. It was a fun experinece using what I learned about jquery from class into a project. 
+  I wrote this project using css, javascript, jquery, html, and used a css framework called bulma. It was a fun experinece using what I learned about jquery from class into a project. 
 I am also planning on implementing this project using react on my own time! 
 
 Some of the features given...
