@@ -77,7 +77,7 @@ $(':submit').on('click', handleSubmitForm);
 $('.columns').on('click', '#delete-btn', handleDeleteRobot);
 
 //hander for icon clicks using event delegation
-$('.columns').on('click', '.dot', taskTimeHandler);
+$('.columns').on('click', 'a', taskTimeHandler);
 
 
 

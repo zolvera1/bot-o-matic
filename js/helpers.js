@@ -12,7 +12,7 @@ export const generateTasks = () => {
     }
    let str = '<ul>';
     distinctTasks.forEach((task,index) => {
-        str+= `<li> ${task.description} <span id="task-${index}" data-finished=false data-eta=${task.eta}  class="dot"></span> </li>`
+        str+= `<li> ${task.description} <a id="task-${index}" data-finished=false data-eta=${task.eta}  class="button is-rounded"></a> </li>`
     });
     str += '</ul>';
 

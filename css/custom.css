@@ -37,15 +37,15 @@ footer {
     padding: 1px;
 }
 
-.dot {
-    height: 25px;
-    width: 25px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    position: absolute;
-    right:125px;
-}
+/*.dot {*/
+/*    height: 25px;*/
+/*    width: 25px;*/
+/*    background-color: #bbb;*/
+/*    border-radius: 50%;*/
+/*    display: inline-block;*/
+/*    position: absolute;*/
+/*    right:125px;*/
+/*}*/
 .is-complete {
     text-decoration: line-through;
 }
