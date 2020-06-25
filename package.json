@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "browser-sync": "^2.26.7",
-    "bulma": "^0.7.5",
+    "bulma": "^0.9.0",
     "jquery": "^3.5.0"
   }
 }
