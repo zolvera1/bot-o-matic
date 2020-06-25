@@ -20,6 +20,6 @@
   "dependencies": {
     "browser-sync": "^2.26.7",
     "bulma": "^0.7.5",
-    "jquery": "^3.5.0"
+    "jquery": "^3.5.1"
   }
 }
